@@ -7,3 +7,4 @@
 - [Моя статья про Deno на Хабре](https://habr.com/ru/company/samokat_tech/blog/705204/)
 - [Проекты на Deno, на которые стоит обратить внимание](https://github.com/denolib/awesome-deno)
 - [Бенчмарки](https://deno.land/benchmarks)
+- [Tokio](https://tokio.rs/)

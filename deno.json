@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true
+  },
+  "importMap": "import_map.json",
+  "lint": {
+    "files": {
+      "include": ["."]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["ban-types"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["."]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 2,
+      "singleQuote": false,
+      "proseWrap": "preserve"
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["."]
+    }
+  },
+  "tasks": {
+    "test": "deno test",
+
+    "fmt": "deno fmt",
+    "tscheck": "deno check ./demo-tscheck.ts",
+    "lint": "deno lint",
+
+    "express": "deno run --allow-read --allow-net --allow-env ./demo-express.ts",
+
+    "rsaDeno": "deno run ./demo-security.ts",
+    "rsaNode": "node ./demo-security.js"
+  }
+}

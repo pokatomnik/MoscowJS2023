@@ -8,3 +8,4 @@
 - [Проекты на Deno, на которые стоит обратить внимание](https://github.com/denolib/awesome-deno)
 - [Бенчмарки](https://deno.land/benchmarks)
 - [Tokio](https://tokio.rs/)
+- [Критика NodeJS со стороны Райана Даля](https://habr.com/ru/company/ruvds/blog/548692/)
